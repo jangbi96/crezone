@@ -1,0 +1,2213 @@
+
+<!--  -->
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>CREZONE CMS</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico">
+    <link rel="icon" type="image/ico" sizes="192x192"  href="/favicon.ico">
+    <link rel="icon" type="image/ico" sizes="32x32" href="/favicon.ico">
+    <link rel="icon" type="image/ico" sizes="96x96" href="/favicon.ico">
+    <link rel="icon" type="image/ico" sizes="16x16" href="/favicon.ico">
+    
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- bootstrap css -->
+    <link type="text/css" rel="stylesheet" href="http://118.67.150.59/bootstrap/css/bootstrap.css?ver=1" />
+    <link type="text/css" rel="stylesheet" href="http://118.67.150.59/bootstrap/css/bootstrap.min.css?ver=1" />
+    <!-- slick css -->
+    <link type="text/css" rel="stylesheet" href="http://118.67.150.59/css/portal/slick.css?ver=1" />
+    <link type="text/css" rel="stylesheet" href="http://118.67.150.59/css/portal/slick-theme.css?ver=1" />
+
+    <!-- common css -->
+    <link type="text/css" rel="stylesheet" href="http://118.67.150.59/css/portal/common.css?ver=1" />
+
+    <!-- css -->
+    <link type="text/css" rel="stylesheet" href="http://118.67.150.59/css/portal/reset.css?ver=1" />
+    <link type="text/css" rel="stylesheet" href="http://118.67.150.59/css/portal/style.css?ver=1" />
+    <link type="text/css" rel="stylesheet" href="http://118.67.150.59/css/portal/style_crex.css?ver=1" />
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css" />
+    <link type="text/css" rel="stylesheet" href="http://118.67.150.59/css/portal/kakaoMap.css?ver=12" />
+    <link type="text/css" rel="stylesheet" href="http://118.67.150.59/css/portal/kkami.css?ver=12" />
+
+
+
+    <link type="text/css" rel="stylesheet" href="http://118.67.150.59/css/portal/portalCommon.css?ver=1" />
+
+    <script src="http://118.67.150.59/js/portal/jquery-3.5.1.js?ver=1"></script>
+    <script src="http://118.67.150.59/js/portal/jquery-ui.js?ver=1"></script>
+    <script src="http://118.67.150.59/js/portal/jquery.cookie.js?ver=1"></script>
+    <script src="http://118.67.150.59/bootstrap/js/bootstrap.min.js?ver=1"></script>
+    <script src="http://118.67.150.59/js/portal/slick.js?ver=1"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+    <script src="http://118.67.150.59/js/portal/common.js?ver=1"></script>
+    <script src="http://118.67.150.59/js/portal/crex_common.js?ver=1"></script>
+    
+    <!-- jquery template -->
+	<script src="http://118.67.150.59/jquery/jquery.tmpl.js"></script>
+
+    <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+    <script src="http://118.67.150.59/js/portal/google-speach-to-text.js?ver=1"></script>
+
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+    
+    <!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v11.0&appId=576855853333482" nonce="SiOBIhLG"></script> -->
+
+    <script type="text/javascript" src="https://static.nid.naver.com/js/naverLogin_implicit-1.0.3.js" charset="utf-8"></script>
+    
+    <script src="http://118.67.150.59/template/plugins/moment/moment.min.js?ver=1"></script>
+    
+	
+    <link rel="stylesheet" href="http://118.67.150.59/css/admin/fontawesome-free-5.15.3-web/css/all.min.css">
+
+    <script src="http://118.67.150.59/jquery/HoldOn.js?ver=1"></script>
+    <script src="http://118.67.150.59/jquery/HoldOn.min.js?ver=1"></script>
+
+    <!-- Jquery wnidow js -->
+    <script src="http://118.67.150.59/jquery/jqWindow/jquery.window.js?ver=1"></script>
+
+
+    <!-- javascript Util js -->
+    <script src="http://118.67.150.59/utils/Util.js?ver=1"></script>
+    <script src="http://118.67.150.59/utils/UtilAjax.js?ver=1"></script>
+    <script src="http://118.67.150.59/utils/UtilDate.js?ver=1"></script>
+    <script src="http://118.67.150.59/jquery/jquery.form.js?ver=1"></script>
+    <script src="http://118.67.150.59/js/portal/jquery.xml2json.js?ver=1"></script>
+
+    <script type="text/javascript" src="/html/egovframework/com/cmm/utl/ckeditor_admin/ckeditor.js?ver=1"></script>
+
+	<!-- custom -->
+	<script type="text/javascript" src="http://118.67.150.59/js/app.common.util.js"></script>
+	<script type="text/javascript" src="http://118.67.150.59/js/pagenation.js"></script>
+
+	<!-- file upload & download -->
+	<script src="http://118.67.150.59/jquery/jquery.fileDownload.js?ver=1"></script>
+	<script type="text/javascript" src="http://118.67.150.59/js/file.js"></script>
+
+	</head>
+<script>
+var __locale =  "ko";
+</script>
+
+<body>
+
+<div id="header">
+    <!--  -->
+
+
+<script>
+	$(document).ready(function() {
+		sso_login = function(mode, link, sitecode){
+			
+			var ret_url = document.location.href;
+			ret_url = 'http://dev1.crezone.net:8080/sso.jsp';
+
+			$('#RET_URL').val(ret_url);
+			$('#WINMODE').val('S');        
+			$("#ssologin").attr("target", "_self");
+			$('#SITECODE').val('crezone');
+
+			if( mode == 'L'){
+				$('#CTRLMODE').val('slogin');
+				$("#ssologin").attr("action", "https://login.kofac.re.kr/sso.jsp");
+			}else if( mode == 'R'){
+				$('#CTRLMODE').val('join');
+				$("#ssologin").attr("action", "https://login.kofac.re.kr/register/reg1.jsp");
+			}else if( mode == 'M'){
+				$('#CTRLMODE').val('modify');
+				$("#ssologin").attr("action", "https://login.kofac.re.kr/login/ssoLogin.jsp");
+			}else if( mode == 'O'){
+				$('#CTRLMODE').val('logout');
+				$("#ssologin").attr("action", "https://login.kofac.re.kr/login/logout.jsp");
+			}else if( mode == 'LL' ){
+			
+				/*
+				$('#SITECODE').val(sitecode);
+				$('#CTRLMODE').val('slogin');
+				$('#WINMODE').val('S');      
+				$('#RET_URL').val(link);        
+				$("#ssologin").attr("target", "_blank");
+				$("#ssologin").attr("action", "https://login.kofac.re.kr/sso.jsp");
+				$('#ssologin').submit();		
+				*/
+				
+				document.location.href="https://login.kofac.re.kr/sso.jsp?SITECODE=crezone&WINMODE=S&CTRLMODE=slogin&RET_URL=" + ret_url;
+				
+			}
+			else if( mode == 'TEST' ){
+
+				//document.location.href="https://login.kofac.re.kr/sso.jsp?SITECODE=crezone&WINMODE=S&CTRLMODE=slogin&RET_URL=" + ret_url;
+				document.location.href="/sso_imsi.jsp";
+			}
+			
+			//$('#ssologin').submit();		
+		}
+		
+	});
+</script>
+
+	<div class="unb_area">
+		<div class="wrap_inner">
+			<ul class="clearfix">
+				<li><a href="/crezoneIntroView.do" class="f_color">크레존 소개</a></li>
+				<li><a href="/usageGuideView.do">이용안내</a></li>
+			</ul>
+			<ul class="clearfix">
+				<li><a href="cms/logout.do">CMS</a></li>
+				<li>
+					<a href="#:none" onClick="sso_login('TEST', 'http://www.kofac.re.kr', 'kofac')">로그인</a>
+					</li>
+				<li><a href="/notice.do">고객센터</a></li>
+				<li><a href="/documentRoom.do">자료실</a></li>
+				<li><a href="/crezone/eventList.do">이벤트</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="logo_area">
+		<div class="wrap_inner clearfix">
+			<div class="logo01">
+				<a href="/notice/detail.do?sid=1739&page=11&search=">
+					<img src="http://118.67.150.59/img/gcs_pic01.png" alt="굿콘텐츠 서비스">
+				</a>
+				<dl>
+					<dt class="f_color">굿콘텐츠 공유</dt>
+					<dd><a href="#" class="creapply_btn">크레커 신청</a></dd>
+					<dd class="login_part"><a href="#" class="creapply_btn">크레커 신청</a></dd>
+				</dl>
+				<a href="#" class="addteacher_btn">교직원 등록</a>
+			</div>
+			<h1><a href="/index.do"><span class="hidden">크레존</span></a></h1>
+			<div class="logo02">
+				<ul class="clearfix">
+					<li><a href="/dataSearchResult.do">교과지원 자료 검색</a></li>
+					<li><a href="/baseSearchResult.do">위치기반 검색</a></li>
+				</ul>
+			</div>
+			<ul class="gnb_serv menu_m clearfix ">
+				<li><a href="#" class="search_show"><span class="hidden">검색</span></a></li>
+				<li><a href="#" class="voice_m"><span class="hidden">음성서비스</span></a></li>
+				<li>
+					<a href="#" class="gnb_all"><span class="hidden">전체메뉴</span></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="gnb_area">
+		<div class="menu0826">
+			<ul class="gnb clearfix">
+					<li>
+	<a href='#'>창의교육</a>
+	<ul class='gnb_sub'>
+		<li class='gnb_text clearfix'>
+<p>창의교육</p><p>수업모델,평가모델,교육연수 등 창의교육에 필요한 최신 정보를 보실 수 있습니다.</p>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>창의교육수업모델</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/creative/classModelList.do','10179');">창의교육 수업모델</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/creative/personalityClassModelList.do','10180');">창의·인성교육 수업모델</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/creative/personalityEvaluationModelList.do','10181');">창의·인성교육 평가모델</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/creative/bestPracticesList.do','10182');">창의‧인성교육 수업연구회 우수사례</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>지속가능발전교육 수업모델</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/developmentEducationList.do','10088');">지속가능발전교육 수업모델</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>창의교육 거점센터 자료실</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/creativeEducation/centerList.do','10090');">창의교육 거점센터 자료실</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>창의교육 질의응답</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/questionsAndAnswers/creativeEducation.do','10092');">창의교육 백문백답</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/qnaClassList.do','10093');">창의교육 Q&A</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>인성교육 지도자료‧프로그램</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/personality/educationProgromList.do','10095');">인성교육 지도자료‧프로그램</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li>
+<li>
+	<a href='#'>창의적 체험활동</a>
+	<ul class='gnb_sub'>
+		<li class='gnb_text clearfix'>
+<p>창의적 체험활동</p>  <p>창의적 체험활동 자원 및 프로그램과 창의교육 연관 자료를 활용하여 창의력을 키워보세요.</p>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>창의적 체험활동 소개</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/ceaiExperienceView.do','10097');">창의적 체험활동이란?</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/ceaiSelfRegulatedView.do','10098');">자율활동이란?</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/ceaiClubView.do','10099');">동아리활동이란?</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/ceaiVoluntaryView.do','10100');">봉사활동이란?</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/ceaiCareerView.do','10101');">진로활동이란?</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>창의적 체험활동 자원</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/creativeResource/experienceList.do','10103');">체험시설</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/creativeResource/exhibitionList.do','10104');">전시/공연시설</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/creativeResource/culturalList.do','10105');">문화재/역사</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/creativeResource/natureList.do','10107');">자연</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/creativeResource/publicOfficeList.do','10108');">관공서</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/creativeResource/safetyList.do','10109');">안전/의료/복지시설</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/creativeResource/researchList.do','10110');">연구시설</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>창의적 체험활동 프로그램</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/creativeProgram/all.do','10112');">창의적 체험활동</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/career/all.do','10113');">진로직업체험</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/subject/all.do','10114');">교과학습지원</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>창의적 체험활동 수업모델</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/capitalAreaList.do','10122');">수도권 창의체험 수업모델</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/gangwonChungcheongList.do','10123');">강원ㆍ충청권 창의체험 수업모델</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/youngnamList.do','10124');">영남권 창의체험 수업모델</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/jejuJeollaList.do','10125');">제주ㆍ전라권 창의체험 수업모델</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/instrumentList.do','10126');">계기교육 수업모델</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/crossCurricularList.do','10127');">범교과 수업모델</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>현장체험학습</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/fieldIntroView.do','10116');">현장체험학습 소개</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/fieldModelList.do','10117');">현장체험학습 모델</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/fieldTrip/referenceRoom.do','10118');">현장체험학습 자료실</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/jobOfferList.do','10119');">안전요원 구인</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/jobSearchList.do','10120');">안전요원 구직</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>이달의 추천 큐레이션</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('curationList.do','10129');">이달의 추천 큐레이션</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li>
+<li>
+	<a href='#'>교사 연구회</a>
+	<ul class='gnb_sub'>
+		<li class='gnb_text clearfix'>
+<p>교사 연구회</p>  <p>다양한 분야의 교사연구회 연구자료와 교수학습방법 및 학습자료, 콘텐츠를 공유하는 공간입니다.</p>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>창의교육 실천 교사연구회	</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/trs/578737/66/teacherResearchSocietyList.do','10134');">창의교육 실천 교사연구회</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>지속가능발전교육 실천 교사연구회</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/trs/235309/34/teacherResearchSocietyList.do','10136');">지속가능발전교육 실천 교사연구회</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>창의적 체험활동 실천 교사연구회</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/trs/289452/37/teacherResearchSocietyList.do','10138');">창의적 체험활동 실천 교사연구회</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>창의 인성 수업연구회</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/trs/235305/33/teacherResearchSocietyList.do','10140');">창의 인성 수업연구회</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>연구회 공개 자료방</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/trs/openResearchList.do','10142');">연구회 공개 자료방</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li>
+<li>
+	<a href='#'>크레존 이야기</a>
+	<ul class='gnb_sub'>
+		<li class='gnb_text clearfix'>
+<p>크레존 이야기</p>  <p>블로그, 뉴스레터, 카드뉴스로 최신 교육 트렌드를 만나보세요.</p>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>블로그</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/blog1.do','10144');">해외창의 이야기</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/blog2.do','10145');">행복학교 이야기</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/blog3.do','10146');">창의교육 이야기</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/blog4.do','10147');">정보문화 이야기</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/blog5.do','10148');">테마여행 이야기</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>뉴스레터</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/newsLetter.do','10150');">뉴스레터</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>카드뉴스</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/cardNews.do','10152');">카드뉴스</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>창의적 진로체험 가이드</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/careerExperienceGuide.do','10171');">창의적 진로체험 가이드</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>온 가족 창의체험+</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/latestProgramList.do','10155');">추천 프로그램</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/programFirstList.do','10156');">프로그램 I</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/programSecondList.do','10157');">프로그램 II</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>AI 서술형 학습지원 프로그램</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/aiIntroduction.do','10159');">소개</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/aiGuide.do','10160');">활용 가이드</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('http://wai.best/','10161');">문제 풀기</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>함께 만드는 창의마당</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/togetherCreative.do','10163');">전체</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/togetherCreative/review.do','10165');">후기 게시판</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/togetherCreative/communication.do','10166');">소통 게시판</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>알리Go 나누Go</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/crezoneGoList.do','10168');">알리Go 나누Go</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>아동 안전 만화+</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/cartoon.do','10170');">아동 안전 만화+</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>고객센터</a>
+			<ul class='submenu_con clearfix'>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>크레존 소개</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/crezoneIntroView.do','10358');">크레존 소개</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>공지사항</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/notice.do','10360');">공지사항</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>1:1 문의하기</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/toContactRegist.do','10362');">1:1 문의하기</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>문의내역확인</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/myInquiryList.do','10364');">문의내역확인</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>자주묻는질문</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/faq.do','10366');">자주묻는질문</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>이벤트</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/crezone/eventList.do','10368');">이벤트 목록</a>
+				</li>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/crezone/event/prize.do','10369');">당첨자 발표</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>사이트맵</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/siteMapView.do','10371');">사이트맵</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>이용안내</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/usageGuideView.do','10373');">이용안내</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>유관기관</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/relatedOrganizationView.do','10375');">유관기관</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>자료실</a>
+			<ul class='submenu_con clearfix'>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>문서 자료실</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/documentRoom.do','10329');">문서 자료실</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>기타</a>
+			<ul class='submenu_con clearfix'>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>통합검색</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/search/result.do','10377');">통합검색</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>교과지원 자료 검색</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/dataSearchResult.do','10379');">교과지원 자료 검색</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>위치기반 검색</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/baseSearchResult.do','10381');">위치기반 검색</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>My크레존</a>
+			<ul class='submenu_con clearfix'>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>나의 창의체험활동</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/myCreativeExperience.do','10383');">나의 창의체험활동</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>나의 커뮤니티</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/myCommunityList.do','10385');">나의 커뮤니티</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>나의 커뮤니티 질의응답</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/myCommunityQnaWaitingList.do','10387');">나의 커뮤니티 질의응답</a>
+				</li>
+			</ul>
+		</li>
+		<li class='clearfix'>
+			<a href='#' class='long_sub'>나의 1:1 문의내역</a>
+			<ul class='submenu_con clearfix'>
+				<li>
+					<a href='#' onClick="AppComUtil._setNextUrl('/myInquiryList.do','10389');">나의 1:1 문의내역</a>
+				</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+</ul>
+			
+			<div class="hamburger0827">
+				<ul class="gnb_serv clearfix">
+					<li style="display: none;"><a href="#" class="search_show"><span class="hidden">검색</span></a></li>
+					<li style="display: none;"><a href="#" class="search_show voice_s" id="btn"><span class="hidden">음성서비스</span></a></li>
+					<li><a href="#" class="gnb_all"><span class="hidden">전체메뉴</span></a></li>
+				</ul>
+				</div>
+		</div>
+	</div>
+
+	<!-- 헤더팝업 -->
+	<!-- 전체메뉴 -->
+	<div class="menu_all pop_area">
+		<div class="pop_box">
+			<div class="pop_title clearfix">
+				<div class="pc_menu">
+					<p>전체메뉴</p>
+					<a href="#" class="close_btn"><span class="hidden">닫기</span></a>
+				</div>
+				<div class="mo_menu">
+					<div class="login_box">
+						<p>로그인 해주세요</p>
+						<button>로그인</button>
+					</div>
+					<a href="#" class="close_btn"><span class="hidden">닫기</span></a>
+					<ul class="clearfix">
+						<li><a href="#" class="creapply_btn">크레커 신청</a></li>
+						<li><a href="#" class="addteacher_btn">교직원 등록</a></li>
+						<!-- <li><a href="#">교과자원 자료 검색</a></li>
+						<li><a href="#">위치기반 검색</a></li> -->
+					</ul>
+				</div>
+			</div>
+			<div class="pop_con clearfix">
+				<div class="pop_menu_part1 clearfix">
+					<dl class="clearfix">
+						<dt><a href="#">창의교육</a></dt>
+						<dd>
+							<ul class="submenu_tit">
+								<li>
+									<i class="menu_first_i fas fa-circle"></i>
+									<a href="/creative/classModelList.do?_code=10179">창의교육 수업모델</a>
+									</li>
+								<li>
+									<i class="menu_first_i fas fa-circle"></i>
+									<a href="/developmentEducationList.do?_code=10088">지속가능발전교육 수업모델</a>
+									</li>
+								<li>
+									<i class="menu_first_i fas fa-circle"></i>
+									<a href="/creativeEducation/centerList.do?_code=10090">창의교육 거점센터 자료실</a>
+									</li>
+								<li>
+									<i class="menu_first_i fas fa-circle"></i>
+									<a href="/qnaClassList.do?_code=10093">창의교육 질의응답</a>
+									</li>
+								<li>
+									<i class="menu_first_i fas fa-circle";></i>
+									<a href="/personality/educationProgromList.do?_code=10095">인성교육 지도자료 프로그램</a>
+									</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt><a href="#">창의적 체험활동</a></dt>
+						<dd>
+							<ul class="submenu_tit">
+								<li>
+									<i class="menu_second_i fas fa-circle"></i>
+									<a href="/ceaiExperienceView.do?_code=10097">창의적 체험활동 소개</a>
+									</li>
+								<li>
+									<i class="menu_second_i fas fa-circle"></i>
+									<a href="/creativeResource/experienceList.do?_code=10103">창의적 체험활동 자원</a>
+									</li>
+								<li>
+									<i class="menu_second_i fas fa-circle"></i>
+									<a href="/creativeResource/experienceList.do?_code=10103">창의적 체험활동 프로그램</a>
+									</li>
+								<li>
+									<i class="menu_second_i fas fa-circle"></i>
+									<a href="/creativeProgram/all.do?_code=10112">창의적 체험활동 수업모델</a>
+									</li>
+								<li>
+									<i class="menu_second_i fas fa-circle"></i>
+									<a href="/fieldIntroView.do?_code=10116">현장체험학습</a>
+									</li>
+								<li>
+									<i class="menu_second_i fas fa-circle"></i>
+									<a href="/curationList.do?_code=10129">이달의 추천 큐레이션</a>
+									</li>
+								</ul>
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt><a href="#">교사 연구회</a></dt>
+						<dd>
+							<ul class="submenu_tit">
+								<li>
+									<i class="menu_third_i fas fa-circle menu_i"></i>
+									<a href="/trs/578737/66/teacherResearchSocietyList.do?_code=10134">창의교육 실천 교사 연구회</a>
+									</li>
+								<li>
+									<i class="menu_third_i fas fa-circle menu_i"></i>
+									<a href="/trs/235309/34/teacherResearchSocietyList.do?_code=10136">지속가능발전교육 실천 교사 연구회</a>
+									</li>
+								<li>
+									<i class="menu_third_i fas fa-circle"></i>
+									<a href="/trs/289452/37/teacherResearchSocietyList.do?_code=10138">창의적 체험활동 실천 교사 연구회</a>
+									</li>
+								<li>
+									<i class="menu_third_i fas fa-circle"></i>
+									<a href="/trs/235305/33/teacherResearchSocietyList.do?_code=10140">창의 인성 수업 연구회</a>
+									</li>
+								<li>
+									<i class="menu_third_i fas fa-circle"></i>
+									<a href="/trs/openResearchList.do?_code=10142">연구회 공개 자료방</a>
+									</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt><a href="#">크레존 이야기</a></dt>
+						<dd>
+							<ul class="submenu_tit">
+								<li>
+									<i class="menu_fourth_i fas fa-circle"></i>
+									<a href="/blog1.do?_code=10144">블로그</a>
+									</li>
+								<li>
+									<i class="menu_fourth_i fas fa-circle"></i>
+									<a href="/newsLetter.do?_code=10150">뉴스레터</a>
+									</li>
+								<li>
+									<i class="menu_fourth_i fas fa-circle"></i>
+									<a href="/cardNews.do?_code=10152">카드뉴스</a>
+									</li>
+								<li>
+									<i class="menu_fourth_i fas fa-circle"></i>
+									<a href="/careerExperienceGuide.do?_code=10171">창의적 진로체험 가이드</a>
+									</li>
+								<li>
+									<i class="menu_fourth_i fas fa-circle"></i>
+									<a href="/latestProgramList.do?_code=10155">온 가족 창의체험+</a>
+									</li>
+								<li>
+									<i class="menu_fourth_i fas fa-circle"></i>
+									<a href="/aiIntroduction.do?_code=10159">AI 서술형 학습지원 프로그램</a>
+									</li>
+								<li>
+									<i class="menu_fourth_i fas fa-circle"></i>
+									<a href="/togetherCreative.do?_code=10163">함께 만드는 창의마당</a>
+									</li>
+								<li>
+									<i class="menu_fourth_i fas fa-circle"></i>
+									<a href="/crezoneGoList.do?_code=10168">알리Go 나누Go</a>
+									</li>
+
+								<li>
+									<i class="menu_fourth_i fas fa-circle"></i>
+									<a href="/cartoon.do?_code=10170" target="_blank">아동 안전 만화+</a>
+									</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+				<div class="pop_menu_part2 clearfix">
+					<dl class="clearfix">
+						<dt><a href="#">고객센터</a></dt>
+						<dd>
+							<ul class="submenu_tit">
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/crezoneIntroView.do">크레존 소개</a>
+									</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/notice.do">공지사항</a>
+									</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a
+											
+											href="javascript:alert('로그인 해주세요.');" onfocus="this.blur()"
+											
+									>1:1 문의하기</a>
+									                              </li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/myInquiryList.do">문의내역확인</a>
+								</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/faq.do">자주묻는질문</a>
+									</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/crezone/eventList.do">이벤트</a>
+									</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/siteMapView.do">사이트 맵</a>
+									</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/usageGuideView.do">이용안내</a>
+									</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/relatedOrganizationView.do">유관기관</a>
+									</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt><a href="#">자료실</a></dt>
+						<dd>
+							<ul class="submenu_tit">
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/documentRoom.do">문서자료실</a>
+									</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/multimediaArchiveLists.do">멀티미디어 자료실</a>
+									</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/globalForum.do">글로벌 창의포럼 자료실</a>
+									</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt><a href="#">기타</a></dt>
+						<dd>
+							<ul class="submenu_tit">
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/search/result.do">통합검색</a>
+									</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/dataSearchResult.do">교과지원 자료 검색</a>
+									</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/baseSearchResult.do">위치기반 검색</a>
+									</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a class="creapply_btn" href="#">크레커 신청</a>
+									</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a class="addteacher_btn"
+											
+												href="javascript:alert('로그인 해주세요.');" onfocus="this.blur()"
+											 >교직원등록</a>
+									</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt><a href="#">My크레존</a></dt>
+						<dd>
+							<ul class="submenu_tit">
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/myCreativeExperience.do">나의 창의체험활동</a>
+									</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/myCommunityList.do">나의 커뮤니티</a>
+									</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/myCommunityQnaWaitingList.do">나의 커뮤니티 질의응답</a>
+									</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="/myInquiryList.do?_code=10364">나의 1:1 문의내역</a>
+									</li>
+								<li>
+									<i class="menu_ect_i fas fa-circle"></i>
+									<a href="https://login.kofac.re.kr/register/info1.jsp">회원정보 수정</a>
+									</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+				<a href="#" class="mo_menu">고객센터</a>
+			</div>
+		</div>
+	</div><!-- 전체메뉴E -->
+
+
+
+	<!-- 설정(마이메뉴) S 로그인전 -->
+	<div class="setting_pop pop_area pop_area_f">
+		<div class="pop_box">
+			<div class="pop_title clearfix">
+				<p>my menu</p>
+				<a href="#" class="close_btn"><span class="hidden">닫기</span></a>
+			</div>
+			<div class="pop_con clearfix">
+				<p>
+					로그인하시면<br />
+					마이메뉴 설정이 가능합니다.
+				</p>
+			</div>
+			<div class="pop_foot clearfix">
+				<button>로그인</button>
+			</div>
+		</div>
+	</div><!-- 마이메뉴(설정) E 로그인전 -->
+
+	<!-- 마이메뉴(설정) S 로그인후 -->
+	<div class="setting_pop mymenu pop_area pop_area_f">
+		<div class="pop_box">
+			<div class="pop_title clearfix">
+				<p>my menu</p>
+				<a href="#" class="close_btn"><span class="hidden">닫기</span></a>
+			</div>
+			<div class="pop_con clearfix">
+				<ul class="clearfix">
+					<li>
+						<div>
+							<input type="checkbox" id="qkm1"/>
+							<label for="qkm1">
+								<img src="http://118.67.150.59/img/quickico1.png" alt="" />
+								<p>창의적 체험<br/>활동 자원</p>
+							</label>
+						</div>
+					</li>
+					<li>
+						<div>
+							<input type="checkbox" id="qkm2"/>
+							<label for="qkm2">
+								<img src="http://118.67.150.59/img/quickico2.png" alt="" />
+								<p>창의적 체험<br/>활동 프로그램</p>
+							</label>
+						</div>
+					</li>
+					<li>
+						<div>
+							<input type="checkbox" id="qkm3"/>
+							<label for="qkm3">
+								<img src="http://118.67.150.59/img/quickico3.png" alt="" />
+								<p>AI 서술형 학습<br/>지원 프로그램</p>
+							</label>
+						</div>
+					</li>
+					<li>
+						<div>
+							<input type="checkbox" id="qkm4"/>
+							<label for="qkm4">
+								<img src="http://118.67.150.59/img/quickico4.png" alt="" />
+								<p>크레존<br/>블로그</p>
+							</label>
+						</div>
+					</li>
+					<li>
+						<div>
+							<input type="checkbox" id="qkm5"/>
+							<label for="qkm5">
+								<img src="http://118.67.150.59/img/quickico5.png" alt="" />
+								<p>뉴스레터</p>
+							</label>
+						</div>
+					</li>
+					<li>
+						<div>
+							<input type="checkbox" id="qkm6"/>
+							<label for="qkm6">
+								<img src="http://118.67.150.59/img/quickico6.png" alt="" />
+								<p>카드뉴스</p>
+							</label>
+						</div>
+					</li>
+					<li>
+						<div>
+							<input type="checkbox" id="qkm7"/>
+							<label for="qkm7">
+								<img src="http://118.67.150.59/img/quickico7.png" alt="" />
+								<p>체험활동 정보<br />위치기반 검색</p>
+							</label>
+						</div>
+					</li>
+					<li>
+						<div>
+							<input type="checkbox" id="qkm8"/>
+							<label for="qkm8">
+								<img src="http://118.67.150.59/img/quickico8.png" alt="" />
+								<p>알리Go<br/>나누Go</p>
+							</label>
+						</div>
+					</li>
+					<li>
+						<div>
+							<input type="checkbox" id="qkm9"/>
+							<label for="qkm9">
+								<img src="http://118.67.150.59/img/quickico9.png" alt="" />
+								<p>온 가족<br/>창의체험+</p>
+							</label>
+						</div>
+					</li>
+					<li>
+						<div>
+							<input type="checkbox" id="qkm10"/>
+							<label for="qkm10">
+								<img src="http://118.67.150.59/img/quickico10.png" alt="" />
+								<p>연구회<br/>공개자료방</p>
+							</label>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="pop_foot clearfix">
+				<button>확인</button>
+			</div>
+		</div>
+	</div><!-- 마이메뉴(설정) E 로그인후 -->
+
+	<!-- 마이메뉴(플로팅) S 로그인후 -->
+	<div class="setting_float mymenu mobile_float pop_area pop_area_f">
+		<div class="pop_box">
+			<div class="pop_title clearfix">
+				<p>my menu</p>
+				<a href="#" class="pc_show mymenu_btn active"><span class="hidden">메뉴 숨김</span></a>
+				<a href="#" class="my_set_btn">메뉴설정</a>
+				<a href="#" class="mobile_show close_btn"><span class="hidden">닫기</span></a>
+			</div>
+			<div class="pop_con clearfix">
+				<ul class="clearfix">
+					<li>
+						<div>
+							<a href="#">
+								<img src="http://118.67.150.59/img/quickico1.png" alt="" />
+								<p>창의적 체험<br/>활동 자원</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<a href="#">
+								<img src="http://118.67.150.59/img/quickico2.png" alt="" />
+								<p>창의적 체험<br/>활동 프로그램</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<a href="#">
+								<img src="http://118.67.150.59/img/quickico3.png" alt="" />
+								<p>AI 서술형 학습<br/>지원 프로그램</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<a href="#">
+								<img src="http://118.67.150.59/img/quickico4.png" alt="" />
+								<p>크레존<br/>블로그</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<a href="#">
+								<img src="http://118.67.150.59/img/quickico5.png" alt="" />
+								<p>뉴스레터</p>
+							</a>
+						</div>
+					</li>
+				</ul>
+				<a href="#" class="my_set_btn">메뉴설정</a>
+			</div>
+			<div class="pop_foot clearfix">
+				<a href="#">맨 위로</a>
+			</div>
+		</div>
+	</div><!-- 마이메뉴(플로팅) E 로그인후 -->
+
+	<!-- 설정(맞춤형 모바일) S -->
+	<div class="custom_float mobile_float pop_area pop_area_f">
+		<div class="pop_box">
+			<div class="pop_title clearfix">
+				<p class="custom_type">일반</p>
+				<select name="custom_select" id="custom_select" title="사용자 변경">
+					<option value="">사용자 변경</option>
+					<option value="일반">일반</option>
+					<option value="선생님">선생님</option>
+					<option value="학생">학생</option>
+					<option value="부모">부모</option>
+				</select>
+				<a href="#" class="mobile_show close_btn"><span class="hidden">닫기</span></a>
+			</div>
+			<div class="pop_con clearfix">
+				<div class="custom_list">
+					<p>맞춤형 서비스</p>
+					<ul>
+						<li><a href="#">우리 마을 광고제작단 프로그램 자료</a></li>
+						<li><a href="#">대구미래교육 연구회 최종보고서</a></li>
+						<li><a href="#">대구미래교육 연구회 최종보고서</a></li>
+						<li><a href="#">2020년 창의 교육 실천교사연구회 최종 보고서(FP...</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="pop_foot clearfix">
+				<a href="#">맨 위로</a>
+			</div>
+		</div>
+	</div><!-- 설정(맞춤형 모바일) E -->
+
+	<!-- 음성검색 모바일 S -->
+	<div class="voice_sch_m mobile_float pop_area pop_area_f">
+		<div class="pop_box">
+			<div class="pop_con clearfix">
+				<p>검색하고 싶은 단어를 말해주세요</p>
+				<form method="get" action="" id="topSearchResult">
+					<div class="sch_fild">
+						<input type="submit" class="voice_sch" title="음성검색하기"/>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- 음성검색 모바일 E -->
+
+	<!-- 크레존 맞춤형 서비스 -->
+	<div class="custom_pop pop_area pop_area_f">
+		<div class="pop_box">
+			<div class="pop_title clearfix">
+				<p>크레존 맞춤형 서비스</p>
+				<a href="#" class="close_btn"><span class="hidden">닫기</span></a>
+			</div>
+			<div class="pop_con clearfix" id="configCustomizeService">
+				<form action="">
+					<ul class="clearfix">
+						<li>
+							<label for="inputcr01">
+								<input type="checkbox" id="inputcr01">
+								<img src="http://118.67.150.59/img/costom_img1.png" alt="">
+								<p>일반</p>
+							</label>
+						</li>
+						<li>
+							<label for="inputcr02">
+								<input type="checkbox" id="inputcr02">
+								<img src="http://118.67.150.59/img/costom_img2.png" alt="">
+								<p>선생님</p>
+							</label>
+						</li>
+						<li>
+							<label for="inputcr03">
+								<input type="checkbox" id="inputcr03">
+								<img src="http://118.67.150.59/img/costom_img3.png" alt="">
+								<p>학생</p>
+							</label>
+						</li>
+						<li>
+							<label for="inputcr04">
+								<input type="checkbox" id="inputcr04">
+								<img src="http://118.67.150.59/img/costom_img4.png" alt="">
+								<p>학부모</p>
+							</label>
+						</li>
+					</ul>
+				</form>
+				<div class="text_box">
+					<p>•로그인 없이 1회 설정으로 맞춤형 서비스를 편리하게 이용합니다.</p>
+					<p>•로그인하시면 더욱 개인화한 서비스를 이용할 수 있습니다.</p>
+				</div>
+
+				<script>
+					$(document).ready(() => {
+						if( $.cookie("customize-options") ) {
+							$("#"+$.cookie("customize-options")).attr("checked", true);
+						}
+
+						$("input[id^='inputcr']").change((e) => {
+							let thisId = $(e.target).attr("id");
+							let isChecked = $(e.target).is(":checked");
+							if( isChecked ) {
+								$.cookie("customize-options", thisId);
+							}
+							console.log($.cookie("customize-options"))
+						});
+					})
+				</script>
+
+			</div>
+			<div class="pop_foot clearfix">
+				<div class="pop_foot_box">
+					<!-- <input type="checkbox" name="checkbox" id="checkbox" /> -->
+					<!-- <label for="checkbox">계속 닫기</label> -->
+					<div class="close_btn"><a>저장 및 닫기</a></div>
+				</div>
+			</div>
+		</div>
+	</div><!-- 크레존 맞춤형 서비스E -->
+
+	<!-- 자원관리자 신청 -->
+	<form name="crackerForm" method="post" action="/crackerRegist">
+		<div class="creapply_pop pop_area pop_area_f">
+			<div class="pop_box">
+				<div class="pop_title clearfix">
+					<p>크레존 자원관리자 신청</p>
+					<a href="#" class="close_btn"><span class="hidden">닫기</span></a>
+				</div>
+				<div class="pop_con clearfix">
+					<fieldset>
+						<legend class="hidden">자원관리자 등록 신청</legend>
+						<p>자원관리자 신청을 하시면 담당자 검토 및 승인 후 자원 및 프로그램을 직접 등록하실 수 있습니다.</p>
+						<p><a href="/usageGuideView.do" target="_blank">창의적 체험활동 자원/프로그램 등록 안내</a> 바로가기</p>
+						<p> *필수입력사항 </p>
+						<table>
+							<tbody>
+							<tr>
+								<th>개인정보 수집 동의 *</th>
+								<td><textarea rows="4" readonly>
+		  ■ 개인정보의 수집/이용 목적
+		  한국과학창의재단에서 운영하는 크레존은 자원관리자등록을 위해 통합회원과는 별도의 자료 수집을 하고 있습니다.
+		  크레존에서 자원관리자 신청을 위해 수집하는 개인정보는 다음에 명시하는 목적으로만 사용합니다.
+		  - 자원관리자등록
+		  - 자원관리자를 통해 등록된 자원에 대한 수정사항, 민원이 발생했을 경우 관리자에게 연락이 필요한 사항이 발생한 경우
+		  - 등록된 자원관리자의 정보를 토대로 기관에 관한 지역, 개수에 대한 통계를 수집
+		  * 자원등록자로 등록할 때 수집된 모든 정보는 해당서비스 제공이나 회원님께 사전에 밝힌 목적 이외의 다른 어떠한 목적으로도 사용되지 않습니다.
+		  ■ 수집하는 개인정보의 항목
+		  크레존의 자원관리자등록을 위해 아래와 같이 최소한의 개인정보를 수집하고 있습니다.
+		  - 필수 입력항목 : 성명, 아이디, 핸드폰번호, 이메일, 소속, 회사명, 회사 전화번호, 직급, 신청사유, 홈페이지 주소
+		  - 추가 입력항목 : 담당업무
+		  ■ 개인정보의 보유 및 이용기간
+		  크레존은 개인정보 수집 및 이용목적이 달성된 후에는 예외 없이 해당 정보를 지체 없이 파기합니다.
+		  ■ 개인정보 수집 동의 거부의 권리
+		  크레존 자원등록은 위에 명시된 정보수집을 동의하지 않을 경우 관리자등록 신청에 가입이 제한이 있을 수 있습니다.</textarea><span><input type="checkbox" name="agree" id="form-agree"><label for="form-agree">개인정보 수집 동의</label></span></td>
+							</tr>
+							<tr>
+								<th>성명</th>
+								<td><span></span></td>
+							</tr>
+							<tr>
+								<th>아이디</th>
+								<td><span></span></td>
+							</tr>
+							<tr>
+								<th><label for="phone">핸드폰 번호</label> *</th>
+								<td><span><input type="tel" name="authorPhone" id="form-authorPhone" value="" /></span>
+									<span class="cau">※연락 가능한 전화번호를 등록 해 주세요.</span>
+									<span class="cau">※숫자만 입력 해 주세요. ex)01012345678</span>
+								</td>
+							</tr>
+							<tr>
+								<th>이메일 *</th>
+								<td><span><input type="email" name="authorEmail" id="form-authorEmail" value="" /></span></td>
+							</tr>
+							<tr>
+								<th><label for="center">소속 *</label></th>
+								<td>
+									<select name="assign1" id="assign1" title="소속 선택">
+										<option value="">소속 선택</option>
+										<option value="기타">기타</option>
+										<option value="대통령실">대통령실</option>
+										<option value="감사원">감사원</option>
+										<option value="국가정보원">국가정보원</option>
+										<option value="국무총리실">국무총리실</option>
+										<option value="법제처">법제처</option>
+										<coption value="국가보훈처">국가보훈처</coption>
+										<option value="식품의약품안전처">식품의약품안전처</option>
+										<option value="공정거래위원회">공정거래위원회</option>
+										<option value="금융위원회">금융위원회</option>
+										<option value="국민권익위원회">국민권익위원회</option>
+										<option value="중앙선거관리위원회">중앙선거관리위원회</option>
+										<option value="방송통신위원회">방송통신위원회</option>
+										<option value="기획재정부">기획재정부</option>
+										<option value="미래창조과학부">미래창조과학부</option>
+										<option value="교육부">교육부</option>
+										<option value="외교부">외교부</option>
+										<option value="통일부">통일부</option>
+										<option value="법무부">법무부</option>
+										<option value="국방부">국방부</option>
+										<option value="안전행정부">안전행정부</option>
+										<option value="문화체육관광부">문화체육관광부</option>
+										<option value="농림축산부">농림축산부</option>
+										<option value="산업통상자원부">산업통상자원부</option>
+										<option value="보건복지부">보건복지부</option>
+										<option value="환경부">환경부</option>
+										<option value="환경부 국립공원공단">환경부 국립공원공단</option>
+										<option value="고용노동부">고용노동부</option>
+										<option value="국토교통부">국토교통부</option>
+										<option value="여성가족부">여성가족부</option>
+										<option value="해양수산부">해양수산부</option>
+										<option value="기획재정부 국세청">기획재정부 국세청</option>
+										<option value="기획재정부 관세청">기획재정부 관세청</option>
+										<option value="기획재정부 조달청">기획재정부 조달청</option>
+										<option value="기획재정부 통계청">기획재정부 통계청</option>
+										<option value="법무부 검찰청">법무부 검찰청</option>
+										<option value="국방부 병무청">국방부 병무청</option>
+										<option value="국방부 방위사업청">국방부 방위사업청</option>
+										<option value="안전행정부 경찰청">안전행정부 경찰청</option>
+										<option value="안전행정부 소방방재청">안전행정부 소방방재청</option>
+										<option value="문화체육관광부 문화재청">문화체육관광부 문화재청</option>
+										<option value="농림축산부 농촌진흥청">농림축산부 농촌진흥청</option>
+										<option value="농림축산부 산림청">농림축산부 산림청</option>
+										<option value="산업통상자원부 중소기업청">산업통상자원부 중소기업청</option>
+										<option value="산업통상자원부 특허청">산업통상자원부 특허청</option>
+										<option value="환경부 기상청">환경부 기상청</option>
+										<option value="국토교통부 행정중심복합도시건설청">국토교통부 행정중심복합도시건설청</option>
+										<option value="해양수산부 해양경찰청">해양수산부 해양경찰청</option>
+										<option value="서울특별시">서울특별시</option>
+										<option value="부산광역시">부산광역시</option>
+										<option value="대구광역시">대구광역시</option>
+										<option value="인천광역시">인천광역시</option>
+										<option value="광주광역시">광주광역시</option>
+										<option value="대전광역시">대전광역시</option>
+										<option value="울산광역시">울산광역시</option>
+										<option value="경기도">경기도</option>
+										<option value="강원도">강원도</option>
+										<option value="충청북도">충청북도</option>
+										<option value="충청남도">충청남도</option>
+										<option value="경상북도">경상북도</option>
+										<option value="경상남도">경상남도</option>
+										<option value="전라북도">전라북도</option>
+										<option value="전라남도">전라남도</option>
+										<option value="제주특별자치도">제주특별자치도</option>
+										<option value="세종시">세종시</option>
+										<option value="대구교육청">대구교육청</option>
+										<option value="강원교육청">강원교육청</option>
+										<option value="울산교육청">울산교육청</option>
+										<option value="제주교육청">제주교육청</option>
+										<option value="대전교육청">대전교육청</option>
+										<option value="서울교육청">서울교육청</option>
+										<option value="부산교육청">부산교육청</option>
+										<option value="광주교육청">광주교육청</option>
+										<option value="인천교육청">인천교육청</option>
+										<option value="전남교육청">전남교육청</option>
+										<option value="전북교육청">전북교육청</option>
+										<option value="충남교육청">충남교육청</option>
+										<option value="충북교육청">충북교육청</option>
+										<option value="경기교육청">경기교육청</option>
+										<option value="경북교육청">경북교육청</option>
+										<option value="경남교육청">경남교육청</option>
+									</select>
+									<div class="hidden_input"><span>기타 입력</span> <input type="text" name="authorAssign" id="form-authorAssign" /></div>
+								</td>
+							</tr>
+							<script>
+								$('#assign1').change(function () {
+									var assign = $('#assign1').val();
+									if(assign != '기타') {
+										$("#form-authorAssign").val(assign);
+									}else if(assign == '기타'){
+										$("#form-authorAssign").val('');
+									}
+								});
+							</script>
+							<tr>
+								<th><label for="center">회사명 *</label></th>
+								<td><span><input type="text" name="company" id="form-company" /></span></td>
+							</tr>
+							<tr>
+								<th><label for="center">회사 전화번호 *</label></th>
+								<td><span><input type="text"  name="companytel" id="form-companytel"/></span></td>
+							</tr>
+							<tr>
+								<th><label for="center">직급 *</label></th>
+								<td>
+									<select name="position1" id="position1" title="직급 선택">
+										<option value="">직급 선택</option>
+										<option value="장학사">장학사</option>
+										<option value="교사">교사</option>
+										<option value="기타">기타</option>
+									</select>
+									<div class="hidden_input"><span>기타 입력</span> <input type="text" name="authorPosition" id="form-authorPosition" /></div>
+								</td>
+							</tr>
+							<script>
+								$('#position1').change(function () {
+									var position = $('#position1').val();
+									if(position != '기타') {
+										$("#form-authorPosition").val(position);
+									}else if(position == '기타'){
+										$("#form-authorPosition").val('');
+									}
+								});
+							</script>
+							<tr>
+								<th><label for="business">담당업무</label></th>
+								<td><span><input type="text" name="business" id="form-business" /></span></td>
+							</tr>
+							<tr>
+								<th><label for="resonapply">신청사유</label> *</th>
+								<td><span><input type="text" name="resonapply" id="form-resonapply" /></span></td>
+							</tr>
+							<tr>
+								<th><label for="center">홈페이지 주소*</label></th>
+								<td><span><input type="text"  name="homepage" id="form-homepage" class="full-width"/></span></td>
+							</tr>
+							</tbody>
+						</table>
+					</fieldset>
+				</div>
+				<div class="pop_foot clearfix">
+					<button type="button" id="btnSubmit">신청</button>
+				</div>
+			</div>
+		</div>
+	</form>
+	<script>
+		$(document).ready( () => {
+			$("#btnSubmit").click((e) => {
+				if( !fnFormValidating() ) return;
+				$("form[name='crackerForm']").submit();
+			});
+
+			fnFormValidating = () => {
+				let result = true;
+				$("[id^=form-]").each((idx, item) => {
+					if(!result) return;
+					switch ($(item).attr("id")) {
+						case "form-agree":
+							if( $(item).is(":checked") ) {result = true; return;}
+							alert("개인정보 수집/이용 목적에 대한 안내 동의해주세요!");
+							moveTo("form-agree", 400);
+							result = false;
+						break;
+						case "form-authorPhone":
+							if( /^(.+){10,}$/.test($(item).val()) ) {result = true; return;}
+							alert("휴대폰 번호를 확인해주세요!");
+							moveTo("form-authorPhone", 400);
+							result = false;
+						break;
+						case "form-authorEmail":
+							if( /^(.+){1,}$/.test($(item).val()) ) {result = true; return;}
+							alert("이메일을 입력해주세요!");
+							moveTo("form-authorEmail", 400);
+							result = false;
+						break;
+						case "form-authorAssign":
+							if( /^(.+){1,}$/.test($(item).val()) ) {result = true; return;}
+							alert("소속을 확인해주세요!");
+							moveTo("form-authorAssign", 400);
+							result = false;
+						break;
+						case "form-company":
+							if( /^(.+){1,}$/.test($(item).val()) ) {result = true; return;}
+							alert("회사명을 입력해주세요!");
+							moveTo("form-company", 400);
+							result = false;
+						break;
+						case "form-companytel":
+							if( /^(.+){1,}$/.test($(item).val()) ) {result = true; return;}
+							alert("회사 전화번호를 입력해주세요!");
+							moveTo("form-companytel", 400);
+							result = false;
+						break;
+						case "form-authorPosition":
+							if( /^(.+){1,}$/.test($(item).val()) ) {result = true; return;}
+							alert("직급을 확안해주세요!");
+							moveTo("form-authorPosition", 400);
+							result = false;
+						break;
+						case "form-resonapply":
+							if( /^(.+){1,}$/.test($(item).val()) ) {result = true; return;}
+							alert("신청사유를 입력해주세요!");
+							moveTo("form-resonapply", 400);
+							result = false;
+						break;
+						case "form-homepage":
+							if( /^(.+){1,}$/.test($(item).val()) ) {result = true; return;}
+							alert("홈페이지 주소를 입력해주세요!");
+							moveTo("form-homepage", 400);
+							result = false;
+						break;
+					}
+				})
+				return result;
+			}
+
+
+
+			moveTo = (id, delay) => {
+				document.getElementById(id).scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
+				setTimeout( () => {
+					$("#"+id).focus();
+				}, delay)
+			}
+		});
+	</script>
+	<!-- 자원관리자 신청E -->
+
+
+	<!-- 교직원 등록 S -->
+	<form name="teacherForm" method="post" action="/teacherRegist">
+		<div class="addteacher_pop pop_area pop_area_f">
+			<div class="pop_box">
+				<div class="pop_title clearfix">
+					<p>교직원 등록</p>
+					<a href="#" class="close_btn"><span class="hidden">닫기</span></a>
+				</div>
+				<div class="pop_con clearfix">
+					<fieldset class="teacher-neis" style="padding:40px 20px;">
+						<p style="margin-bottom:20px;">
+							<label for="department">소속교육청</label>
+							<input type="hidden" id="form-group">
+							<select id="department" name="department" title="소속교육청을 선택하세요.">
+								<option value="">소속 교육청 선택</option>
+								<option value="1" >교육부</option>
+								<option value="2" >서울</option>
+								<option value="3" >부산</option>
+								<option value="4" >대구</option>
+								<option value="5" >인천</option>
+								<option value="6" >광주</option>
+								<option value="7" >대전</option>
+								<option value="8" >울산</option>
+								<option value="9" >세종</option>
+								<option value="10" >경기</option>
+								<option value="11" >강원</option>
+								<option value="12" >충북</option>
+								<option value="13" >충남</option>
+								<option value="14" >전북</option>
+								<option value="15" >전남</option>
+								<option value="16" >경북</option>
+								<option value="17" >경남</option>
+								<option value="18" >제주</option>
+							</select>
+						</p>
+						<p>
+							<label for="form-neisNumber">NEIS 개인번호</label>
+							<input type="text" placeholder="NEIS 개인번호를 입력하세요." id="form-neisNumber"  />
+						</p>
+					</fieldset>
+					<script>
+						$('#department').change(function () {
+							let group = $('#department').val();
+							$("#form-group").val(group);
+						});
+					</script>
+				</div>
+				<div class="pop_foot clearfix">
+					<button type="button" id="teacherFormSubmit">확인</button>
+				</div>
+			</div>
+		</div>
+	</form>
+	<script>
+		$(document).ready( () => {
+			$("#teacherFormSubmit").click((e) => {
+				if( !fnFormValidating2() ) return;
+				$("form[name='teacherForm']").submit();
+			});
+
+			fnFormValidating2 = () => {
+				let result = true;
+				$("[id^=form-]").each((idx, item) => {
+					if(!result) return;
+					switch ($(item).attr("id")) {
+						case "form-group":
+							if( /[0-9]{1,}$/.test($(item).val()) ) {result = true; return;}
+							alert("소속교육청을 선택해주세요!");
+							moveTo("form-group", 20);
+							result = false;
+						break;
+						case "form-neisNumber":
+							let str0 = $("#form-neisNumber").val();
+							let str1 = str0.substr(0,1);
+							let str2 = str0.substr(1,2);
+							let str3 = str0.substr(3,1);
+							let str4 = str0.substr(-6);
+							if( str0.length == 10 && /[a-zA-Z]{1}$/.test(str1) && /[0-9]{2}$/.test(str2) && /[0-9]{1}$/.test(str3) && /[0-9]{6}$/.test(str4)) {result = true; return;}
+							alert("NEIS 개인번호를 확인해주세요!");
+							moveTo("form-neisNumber", 10);
+							result = false;
+						break;
+					}
+				})
+				return result;
+			}
+
+		});
+	</script>
+	<!-- 교직원 등록E -->
+
+	<!-- sso login form -->
+	<form name="ssologin" id="ssologin" method="post">
+		<input type="hidden" id="SITECODE" name="SITECODE" value="crezone">
+		<input type="hidden" id="CTRLMODE" name="CTRLMODE" value="">
+		<input type="hidden" id="WINMODE" name="WINMODE" value="">
+		<input type="hidden" id="RET_URL" name="RET_URL" value="">
+	</form>
+	<!-- // sso login form -->
+	</div>
+
+<div id="main_wrap">
+	<!--  -->
+
+
+<!-- 네비게이션 바 S -->
+<div class="nav_bar">
+    <ul class="clearfix">
+        <li class="home_ico"><a href="/"></a></li>
+        
+		<li class="first_nav">
+			<a href="#">기타<span></span></a>
+		    <ul class="sub_nav_bar clearfix">
+				<li>
+	        			<a	href="#" 
+							onClick="AppComUtil._setNextUrl('/creative/classModelList.do','10179');">
+							창의교육</a>
+	        		</li>
+				<li>
+	        			<a	href="#" 
+							onClick="AppComUtil._setNextUrl('/ceaiExperienceView.do','10097');">
+							창의적 체험활동</a>
+	        		</li>
+				<li>
+	        			<a	href="#" 
+							onClick="AppComUtil._setNextUrl('/trs/578737/66/teacherResearchSocietyList.do','10134');">
+							교사 연구회</a>
+	        		</li>
+				<li>
+	        			<a	href="#" 
+							onClick="AppComUtil._setNextUrl('/blog1.do','10144');">
+							크레존 이야기</a>
+	        		</li>
+				<li>
+	        			<a	href="#" 
+							onClick="AppComUtil._setNextUrl('/crezoneIntroView.do','10358');">
+							고객센터</a>
+	        		</li>
+				<li>
+	        			<a	href="#" 
+							onClick="AppComUtil._setNextUrl('/documentRoom.do','10329');">
+							자료실</a>
+	        		</li>
+				<li>
+	        			<a	href="#" 
+							onClick="AppComUtil._setNextUrl('/search/result.do','10377');">
+							기타</a>
+	        		</li>
+				<li>
+	        			<a	href="#" 
+							onClick="AppComUtil._setNextUrl('/myCreativeExperience.do','10383');">
+							My크레존</a>
+	        		</li>
+				</ul>
+		</li>
+		
+		<li class="first_nav">
+			<a href="#">위치기반 검색<span></span></a>
+				<ul class='sub_nav_bar clearfix'>
+				<li>
+							<a	href="#" 
+								onClick="AppComUtil._setNextUrl('','10376');">
+								통합검색</a>
+						</li>
+					<li>
+							<a	href="#" 
+								onClick="AppComUtil._setNextUrl('','10378');">
+								교과지원 자료 검색</a>
+						</li>
+					<li>
+							<a	href="#" 
+								onClick="AppComUtil._setNextUrl('','10380');">
+								위치기반 검색</a>
+						</li>
+					</ul>
+		</li>
+		
+		<li class="first_nav">
+			<a href="#">
+						위치기반 검색<span></span>
+					</a>
+				<ul class="sub_nav_bar clearfix">
+				<li>
+							<a	href="#" 
+									onClick="AppComUtil._setNextUrl('/baseSearchResult.do','10381');">
+									위치기반 검색</a>
+		        			</li>
+					</ul>
+		</li>
+		
+    </ul>
+</div><!--  -->
+
+
+<div class="container_k location_based">
+    <div class="inner">
+        <div class="weather_area">
+            <div class="right">
+                <div class="vertical">
+                    <p class="area_txt"><span>서울</span></p>
+                    <div class="p1">
+                        <span class="txt01">오늘의 날씨</span>
+                        <span class="txt02">발표시간:17:00 예보시간:21시</span>
+                    </div>
+                    <div class="p2 blur">
+                        <div class="tooltip_k">
+                            <button type="button"><img src="http://118.67.150.59/img/portal/common/ico_q.png" alt=""></button>
+                            <span>데이터는 실시간 관측된 자료이며 측정소 현지 사정이나 데이터의 수신상태에 따라 미수신될 수 있습니다.</span>
+                        </div>
+                        <div class="weather">
+                            <span class="txt01">맑음</span>
+                            <span class="txt02">27.0˚</span>
+                        </div>
+                    </div>
+                    <div class="p3">
+                        <div class="fine_dust01">
+                            <span class="txt">미세먼지</span>
+                            <div class="numb good">
+                                <span class="top t_blue">좋음</span>
+                                <span class="btm">22ug/㎥</span>
+                            </div>
+                        </div>
+                        <div class="fine_dust02">
+                            <span class="txt">초미세먼지</span>
+                            <div class="numb good">
+                                <span class="top t_blue">좋음</span>
+                                <span class="btm">140ug/㎥</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="left">
+                <span>창의적 체험활동 정보</span>
+                <p>위치기반 검색서비스</p>
+            </div>
+        </div>
+        <div class="search_area">
+            <div class="search_wrap">
+                <div class="area_sel">
+                    <span>지역 선택</span>
+                </div>
+                <div class="sel">
+                    <select>
+                        <option value="">서울</option>
+                        <option value="">경기</option>
+                    </select>
+                </div>
+                <div class="inp">
+                    <input type="text" placeholder="키워드를 입력하세요">
+                    <button type="submit">검색</button>
+                </div>
+                <div class="map_open" onclick="btn_open_common('open_map')">
+                    <button type="button">지도 열기</button>
+                </div>
+            </div>
+            <div class="open_map">
+                <div class="area_map left_map_area" id="mapZone">
+                    <img src="http://118.67.150.59/img/portal/etc/local_mapimg_1.png" class="mapImg" usemap="#mapImg" id="mapImg">
+                    <map name="mapImg">
+                        <area shape="poly" coords="203, 9, 286, 10, 308, 35, 305, 37, 323, 71, 311, 86, 301, 79, 288, 84, 262, 83, 228, 63, 226, 75, 215, 64, 221, 37, 200, 25, 205, 22" alt="강원">
+                        <area shape="poly" coords="127, 9, 208, 9, 202, 15, 205, 22, 203, 27, 224, 38, 222, 41, 218, 43, 220, 50, 217, 59, 212, 79, 203, 86, 187, 75, 175, 79, 171, 76, 167, 79, 172, 89, 162, 93, 155, 94, 154, 91, 153, 88, 157, 83, 157, 77, 152, 85, 149, 85, 151, 75, 145, 75, 143, 68, 155, 66, 149, 60, 156, 49, 173, 49, 176, 41, 181, 35, 177, 30, 174, 22, 161, 29, 148, 23" alt="경기">
+                        <area shape="poly" coords="224, 180, 238, 183, 244, 200, 266, 200, 279, 203, 285, 209, 302, 200, 297, 210, 314, 223, 280, 252, 273, 286, 251, 261, 235, 272, 222, 257, 214, 261, 205, 230, 205, 218, 203, 201" alt="경남">
+                        <area shape="poly" coords="325, 69, 327, 176, 337, 171, 331, 202, 310, 193, 300, 202, 285, 208, 266, 201, 291, 176, 269, 155, 252, 179, 254, 199, 237, 183, 223, 180, 234, 149, 229, 142, 216, 144, 225, 137, 222, 115, 257, 100, 288, 79" alt="경북">
+                        <area shape="poly" coords="151, 233, 154, 229, 164, 237, 159, 247, 146, 250, 142, 244, 134, 241, 144, 229" alt="광주">
+                        <area shape="poly" coords="263, 175, 275, 168, 281, 174, 284, 184, 275, 191, 265, 202, 254, 198, 259, 193, 257, 188, 263, 186" alt="대구">
+                        <area shape="poly" coords="91, 129, 199, 130, 208, 133, 199, 139, 199, 145, 193, 150, 190, 152, 188, 147, 185, 151, 181, 147, 181, 140" alt="대전">
+                        <area shape="poly" coords="313, 223, 280, 253, 295, 250, 300, 261, 322, 228" alt="부산">
+                        <area shape="poly" coords="166, 28, 171, 20, 176, 25, 173, 31, 179, 33, 181, 38, 170, 42, 163, 41, 158, 34" alt="서울">
+                        <area shape="poly" coords="173, 108, 183, 114, 191, 131, 185, 136, 179, 138, 173, 130, 175, 124, 171, 113" alt="세종">
+                        <area shape="poly" coords="333, 202, 311, 192, 295, 209, 312, 219, 326, 219" alt="울산">
+                        <area shape="poly" coords="147, 23, 161, 29, 159, 34, 165, 40, 174, 40, 173, 48, 166, 50, 157, 53, 150, 35, 137, 33, 135, 24" alt="인천">
+                        <area shape="poly" coords="148, 210, 158, 218, 161, 213, 165, 226, 181, 225, 188, 225, 195, 221, 204, 226, 203, 235, 213, 264, 197, 266, 210, 282, 198, 287, 195, 271, 185, 281, 190, 293, 178, 294, 158, 285, 132, 307, 119, 311, 127, 265, 115, 274, 108, 234, 127, 212, 133, 224" alt="전남">
+                        <area shape="poly" coords="154, 154, 166, 157, 170, 163, 184, 157, 197, 171, 206, 166, 207, 160, 223, 167, 223, 176, 202, 203, 207, 213, 206, 224, 167, 233, 161, 213, 147, 212, 141, 222, 127, 222, 127, 214, 139, 209, 123, 204, 141, 189, 143, 180, 134, 177" alt="전북">
+                        <area shape="poly" coords="48, 333, 73, 330, 83, 334, 92, 347, 87, 356, 62, 362, 42, 361, 36, 364, 24, 342" alt="제주">
+                        <area shape="poly" coords="171, 90, 194, 105, 181, 113, 174, 109, 169, 113, 176, 123, 181, 139, 183, 149, 188, 151, 202, 148, 206, 166, 196, 172, 182, 158, 169, 162, 139, 167, 130, 139, 128, 109, 120, 113, 108, 111, 104, 102, 117, 91, 116, 104, 124, 95, 123, 86, 129, 101, 134, 94, 133, 82, 153, 105" alt="충남">
+                        <area shape="poly" coords="215, 63, 225, 72, 230, 59, 232, 65, 257, 68, 250, 73, 275, 79, 261, 90, 258, 100, 248, 97, 234, 102, 237, 109, 227, 109, 226, 117, 221, 113, 219, 120, 226, 138, 219, 144, 227, 145, 235, 153, 215, 172, 205, 173, 202, 149, 198, 143, 207, 134, 190, 128, 182, 111, 195, 105, 185, 90, 194, 89, 192, 83" alt="충북">
+                    </map>
+                    <div class="mobile_map_img">
+                        <img src="http://118.67.150.59/img/portal/etc/local_map_m1.png">
+                    </div>
+                </div>
+                <div class="area_select clearfix">
+                    <span>지역을 선택하세요</span>
+                    <div>
+                        <a href="#!">강원</a>
+                        <a href="#!">경기</a>
+                        <a href="#!">경남</a>
+                        <a href="#!">경북</a>
+                        <a href="#!">광주</a>
+                        <a href="#!">대구</a>
+                        <a href="#!">대전</a>
+                        <a href="#!">부산</a>
+                        <a href="#!">서울</a>
+                        <a href="#!">세종</a>
+                        <a href="#!">울산</a>
+                        <a href="#!">인천</a>
+                        <a href="#!">전남</a>
+                        <a href="#!">전북</a>
+                        <a href="#!">제주</a>
+                        <a href="#!">충남</a>
+                        <a href="#!">충북</a>
+                    </div>
+                    <div>
+                        <input type="text" title="키워드입력" name="keyword" value="" placeholder="키워드를 입력하세요" class="sch_form03" id="secsearchText" maxlength="100" autocomplete="off" onkeydown="transfer();">
+                        <button class="" id="submit2">검색</button>
+                    </div>
+                    <button type="button" class="sel_toggle02" onclick="btn_close_common('open_map')">지도 닫기</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="tab_info_area">
+            <div class="tab_area">
+                <ul>
+                    <li>
+                        <button type="button" class="ellipsis01">창의적 체험활동 자원</button>
+                    </li>
+                    <li>
+                        <button type="button" class="ellipsis01 active">창의적 체험활동 프로그램</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="info_area">
+                <ul>
+                    <li>
+                        <div class="depth02_link">
+                            <ul>
+                                <li><a href="#self" class="active"><span class="ellipsis01">체험시설</span></a></li>
+                                <li><a href="#self"><span class="ellipsis01">전시/공연시설</span></a></li>
+                                <li><a href="#self"><span class="ellipsis01">문화재/역사</span></a></li>
+                                <li><a href="#self"><span class="ellipsis01">자연</span></a></li>
+                                <li><a href="#self"><span class="ellipsis01">관공서</span></a></li>
+                                <li><a href="#self"><span class="ellipsis01">안전/의료/복지시설</span></a></li>
+                                <li><a href="#self"><span class="ellipsis01">연구시설</span></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="depth02_link">
+                            <ul>
+                                <li><a href="#self" class="active"><span class="ellipsis01">창의적 체험활동</span></a></li>
+                                <li><a href="#self"><span class="ellipsis01">진로직업체험</span></a></li>
+                                <li><a href="#self"><span class="ellipsis01">교과학습지원</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="depth03_link">
+                            <ul>
+                                <li><a href="#self" class="active">문화/공연전시</a></li>
+                                <li><a href="#self">동아리/봉사</a></li>
+                                <li><a href="#self">역사체험</a></li>
+                                <li><a href="#self">과학기술</a></li>
+                                <li><a href="#self">인문사회</a></li>
+                                <li><a href="#self">예체능</a></li>
+                                <li><a href="#self">보건</a></li>
+                                <li><a href="#self">녹색</a></li>
+                                <li><a href="#self">기타</a></li>
+                            </ul>
+                        </div>
+                        <div class="info_list">
+                            <div class="search_result_icon">
+                                <div class="left">검색 결과 <span>2,505</span>건</div>
+                                <div class="right">
+                                    <a href="#sel" class="lay_icon"></a>
+                                    <a href="#sel" class="map_icon"></a>
+                                    <button type="button" class="map_oc"><img src="http://118.67.150.59/img/portal/common/arrow_btn_grey01.png" alt=""></button>
+                                </div>
+                            </div>
+                            <div class="body_i">
+                                <div class="txt_area">
+                                    <div class="btn_area">
+                                        <a href="#self" class="active">최신순</a>
+                                        <a href="#self">조회순</a>
+                                        <a href="#self">정렬순</a>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <div class="left"><img src="http://118.67.150.59/img/portal/etc/img_temp.jpg" alt=""></div>
+                                            <div class="right">
+                                                <a href="#self" class="tit ellipsis02">[전국][한국해양재단] 2021년 해양교육 동아리 공모 안내</a>
+                                                <p class="area">서울특별시 종로구 창경궁로 112-7 인의빌딩 4층 한국해양재단</p>
+                                                <div class="btm">
+                                                    <p class="phone">070-4610-0093</p>
+                                                    <a href="#self" class="detail_view">상세보기</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="left"><img src="http://118.67.150.59/img/portal/etc/img_temp.jpg" alt=""></div>
+                                            <div class="right">
+                                                <a href="#self" class="tit ellipsis02">[전국][한국해양재단] 2021년 해양교육 동아리 공모 안내</a>
+                                                <p class="area">서울특별시 종로구 창경궁로 112-7 인의빌딩 4층 한국해양재단</p>
+                                                <div class="btm">
+                                                    <p class="phone">070-4610-0093</p>
+                                                    <a href="#self" class="detail_view">상세보기</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="map_area_k">
+                                    지도영역
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="pagination_box">
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li>
+                    <a href="#" aria-label="Previous" class="paging_arrow">
+                    </a>
+                </li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li>
+                    <a href="#" aria-label="Next" class="paging_arrow">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </div>
+
+
+
+<script type="text/javascript">
+    var select_area_num = 1;
+    jQuery(document).ready(function(){
+        mapSelect();
+    })
+
+    function transfer(){
+
+        var pix = document.getElementById('secsearchText').value;
+
+        document.getElementById('searchText').value =pix;
+
+    }
+
+    function transfer1(){
+
+        var pix = document.getElementById('searchText').value;
+
+        document.getElementById('secsearchText').value =pix;
+
+    }
+
+
+    //지도 지역별 선택
+    //var select_map_num = ;
+    $(".area_map map area").click(function(e){
+        var asd1=$(".area_map map area").index(this);
+        var asd2=$(".area_map map area").index(this)+2;
+        $(".sch_form01 option").eq(asd1).attr("selected",true);
+        e.preventDefault();
+        $(".area_select a").removeClass("on");
+        $(".area_select a").eq(asd1).addClass("on");
+        jQuery(".area_map>img").attr("src",""http://118.67.150.59/img/portal/etc/local_mapimg_"+asd2+".png");
+    });
+
+    $(".area_select a").click(function(e){
+        var asd3=$(".area_select a").index(this)+2;
+        var asd4=$(".area_select a").index(this);
+        $(".sch_form01 option").eq(asd4).attr("selected",true);
+        e.preventDefault();
+        $(this).addClass("on");
+        $(".area_select a").not(this).removeClass("on");
+        jQuery(".area_map>img").attr("src",""http://118.67.150.59/img/portal/etc/local_mapimg_"+asd3+".png");
+        jQuery(".mobile_map_img >img").attr("src",""http://118.67.150.59/img/portal/etc/local_map_m"+asd3+".png");
+    });
+
+    function mapSelect(){
+        jQuery(".area_map>img").attr("src",""http://118.67.150.59/img/portal/etc/local_mapimg_1.png");
+        jQuery(".area_map map area").mouseover(function(){
+            var areaNum =  jQuery(".area_map map area").index(this)+2;
+            jQuery(".area_map>img").attr("src",""http://118.67.150.59/img/portal/etc/local_mapimg_"+areaNum+".png");
+        });
+        jQuery(".area_map map").mouseleave(function(){
+            var asd5=jQuery(".area_select a.on").index()+1;;
+
+            if(asd5 === 0) asd5 = 1;
+            jQuery(".area_map>img").attr("src",""http://118.67.150.59/img/portal/etc/local_mapimg_"+asd5+".png");
+        });
+    }
+
+
+
+    function btn_open_common(ele){
+        $('.' + ele).show();
+    }
+
+    function btn_close_common(ele){
+        $('.' + ele).hide();
+    }
+
+    $('.tab_area ul > li > button').on('click', function(){
+        $(this).addClass('active').parent('li').siblings().find('button').removeClass('active');
+        $('.info_area > ul > li').eq($(this).parent('li').index()).show().siblings().hide();
+    });
+
+    $('.map_oc').on('click', function(){
+        $(this).toggleClass('active');
+
+        if($('.map_oc').hasClass('active') === true) {
+            $('.location_based .info_list').addClass('active');
+        }else{
+            $('.location_based .info_list').removeClass('active');
+        }
+
+    });
+
+
+
+</script>
+</div>
+
+<div id="footer">
+    <!--  -->
+
+
+<ul class="footmu_unb mobile_show clearfix">
+    <li><a href="#">로그인</a></li>
+    <li><a href="#">고객센터</a></li>
+    <li><a href="#">자료실</a></li>
+    <li><a href="#">교직원등록</a></li>
+    <li><a href="#" class="f_color f_blod">크레존 소개</a></li>
+</ul>
+<div class="foot_top">
+    <div class="wrap_inner clearfix">
+        <div class="footmu_rt clearfix">
+            <ul class="cr_sns clearfix">
+                <li><a href="https://www.facebook.com/kofac.festa" title="페이스북" target="_blank"><span class="hidden">페이스북</span></a></li>
+                <li><a href="https://twitter.com/crezone_twt" title="트위터" target="_blank"><span class="hidden">트위터</span></a></li>
+                <li><a href="http://pf.kakao.com/_HXLxnT" title="카카오톡 채널" target="_blank"><span class="hidden">카카오톡 채널</span></a></li>
+                <li><a href="http://blog.naver.com/crezone11" title="네이버블로그" target="_blank"><span class="hidden">네이버블로그</span></a></li>
+            </ul>
+            <dl>
+                <dt><a href="">관련사이트</a></dt>
+                <dd>
+                    <a href="https://www.kofac.re.kr/" target="_blank">한국과학창의재단</a>
+                    <a href="http://www.scienceall.com/" target="_blank">사이언스올</a>
+                    <a href="http://www.sciencetimes.co.kr/" target="_blank">사이언스 타임즈</a>
+                    <a href="http://www.teachforkorea.go.kr/" target="_blank">교육기부</a>
+                    <a href="http://science.ytn.co.kr/" target="_blank">YTN 사이언스</a>
+                    <a href="http://www.moe.go.kr/main.do" target="_blank">교육부</a>
+                    <a href="http://www.sciencecareer.kr/" target="_blank">과학기술인재 진로지원센터</a>
+                    <a href="http://steam.kofac.re.kr/" target="_blank">융합인재교육(STEAM)</a>
+                    <a href="http://www.edunet.net/nedu/main/mainForm.do" target="_blank">티클리어</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="footmu_lt">
+            <ul class="clearfix">
+                <li><a href="http://login.teachforkorea.go.kr/register/login02_cl02.jsp" target="_blank">개인정보처리방침</a></li>
+<li><a class="n_email_btn" href="#">이메일 무단 수집 거부</a></li>
+                <li><a href="https://www.ggoomgil.go.kr/index.jsp" target="_blank">꿈길(진로체험지원전산망)</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="foot_bt">
+    <div class="wrap_inner clearfix">
+        <div class="txtarea">
+            <div class="address_box">
+                <address>06097) 서울특별시 강남구 선릉로 602 (삼성동, 한국과학창의재단) </address>
+                <a href="mailto:crezone@kofac.re.kr">crezone@kofac.re.kr </a>
+                <p>02-559-3929</p>
+            </div>
+            <p>Copyright©2012 KOFAC All Rights Reserved.</p>
+        </div>
+        <div class="sub_logo">
+            <a href="/notice/detail.do?sid=1739&page=11&search=">
+                <img src="http://118.67.150.59/img/gcs_pic02.png" alt="굿콘텐츠서비스인증" title="굿콘텐츠서비스인증">
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- 이메일무단수집거부S -->
+<div class="n_email_pop pop_area pop_area_f">
+    <div class="pop_box">
+        <div class="pop_title clearfix">
+            <p>이메일 무단 수집거부</p>
+            <a href="#" class="close_btn"><span class="hidden">닫기</span></a>
+        </div>
+        <div class="pop_con clearfix">
+            <div class="text_box">
+                <p>본 웹사이트에 게시된 이메일 주소가 전자우편 수집프로그램이나 그 밖의 기술적 장치를 이용하여 무단으로 수집되는 것을 거부하며, 이를 위반시 <strong>정보통신망법에 의해 형사 </strong>처벌됩니다.</p>
+                <p>게시일 : 2017년 10월 19일</p>
+            </div>
+        </div>
+        <div class="pop_foot clearfix">
+            <div class="close_btn"><a>확인</a></div>
+        </div>
+    </div>
+</div><!-- 이메일무단수집거부E -->
+
+</div>
+
+</body>
+</html>
